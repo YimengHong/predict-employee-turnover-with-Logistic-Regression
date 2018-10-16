@@ -6,7 +6,7 @@ from sklearn.model_selection import train_test_split
 from sklearn import metrics
 import matplotlib.pyplot as plt
 
-data = pd.read_csv("C:/Users/yimen/Desktop/HR_comma_sep.csv")
+data = pd.read_csv(".../HR_comma_sep.csv")
 
 # Overfitting detection
 Xtrain,Xvali,ytrain,yvali=train_test_split(X, y, test_size=0.2, random_state=3)
