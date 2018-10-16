@@ -6,7 +6,7 @@ from sklearn.model_selection import train_test_split
 from sklearn import metrics
 import matplotlib.pyplot as plt
 
-data = pd.read_csv("C:/Users/yimen/Desktop/HR_comma_sep.csv")
+data = pd.read_csv(".../HR_comma_sep.csv")
 
 y, X = dmatrices('left~satisfaction_level+last_evaluation+number_project+average_montly_hours+time_spend_company+Work_accident+promotion_last_5years+C(sales)+C(salary)', data, return_type='dataframe')
 X = np.asmatrix(X)
